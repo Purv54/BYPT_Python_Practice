@@ -1,17 +1,17 @@
 import csv
 
-# data = open("Greenhouse.csv")
+data = open("Greenhouse.csv")
 
-# csv_data = csv.reader(data)
+csv_data = csv.reader(data)
 
-# data_lines = list(csv_data)
-# print(len(data_lines))
-# total = []
-# for line in data_lines[1:]:
+data_lines = list(csv_data)
+print(len(data_lines))
+total = []
+for line in data_lines[1:]:
     
-#     total.append(line[5])
+    total.append(line[5])
 
-# print(total)
+print(total)
 
 file_to_output = open("output.csv", "w", newline="")
 
